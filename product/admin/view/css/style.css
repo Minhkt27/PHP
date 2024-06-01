@@ -1,0 +1,37 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        float: left;
+        background-color: rgb(167, 200, 225);
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 30px;
+        font-size: 24px;
+    }
+    a:hover{
+        color: red;
+    }
+    footer{
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: rgb(167, 200, 225);
+        
+    }
+    table {
+            width: 50%;
+            border-collapse: collapse; /* Để gộp viền giữa các ô */
+        }
+    th, td {
+        border: 1px solid black; /* Đặt viền cho các ô */
+        padding: 8px; /* Khoảng cách giữa nội dung và viền */
+        text-align: left; /* Căn trái cho nội dung */
+    }
